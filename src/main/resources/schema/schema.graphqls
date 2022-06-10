@@ -1,5 +1,5 @@
 type Query {
-    math(numbers: [Int!]): [MathResponse]!
+    math(numbers: [Int!]): [MathResponse]
 }
 
 type MathResponse {
